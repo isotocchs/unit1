@@ -11,7 +11,7 @@ public class unit1APCSA {  //class name must match file name
         System.out.println("Testing");
         System.out.println("");
         System.out.print("Same");
-        System.out.print("Line");
+        System.out.println("Line");
 
         // everything within the " " is what is printed. There is no spellcheck
 
