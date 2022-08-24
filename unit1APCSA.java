@@ -10,9 +10,9 @@ public class unit1APCSA {  //class name must match file name
 
 
         System.out.println("Testing");
-        System.out.println("");
-        System.out.print("Same");
-        System.out.println("Line");
+        System.out.println();
+        System.out.println("Same thing in the class");
+        System.out.println(" Line");
 
         // everything within the " " is what is printed. There is no spellcheck
 
@@ -33,8 +33,8 @@ public class unit1APCSA {  //class name must match file name
         // you create them in Java using the datatype and then variable name
 
         // intigers, whole numbers - int
-        int something = 10;
-        System.out.println(something);
+        int numbers = 10;
+        System.out.println(numbers);
         System.out.println("-----------");
 
         // //double used to decimals
@@ -42,48 +42,49 @@ public class unit1APCSA {  //class name must match file name
         System.out.println(thisIsADecimal);
         System.out.println("-----------");
 
-        thisIsADecimal = something;
+        thisIsADecimal = numbers;
         System.out.println(thisIsADecimal);
         System.out.println("-----------");
 
 
         // //boolean used for true or false
-        boolean trueOrFalse = true;
+        boolean trueOrFalse = false;
         System.out.println(trueOrFalse);
         System.out.println("-----------");
 
         // if we want to make a constant then we use the keyword final
-        final double pi = 3.14;
+        final double pi = 3.14;      
         System.out.println(pi);
         System.out.println("-----------");
 
         // Strings are words
-        String someWords = "This is a sentence. @";
+        String someWords = "T";
+        char somethingElse = 'r';
         System.out.println(someWords);
         System.out.println("-----------");
 
 
-        //you can also initialize a variable placeholder and use it later.
-        double someDecimal;
-        someDecimal = 45.89;
-        System.out.println(someDecimal);
-        System.out.println("-----------");
+        // //you can also initialize a variable placeholder and use it later.
+        // double someDecimal;
+        // someDecimal = 45.89;
+        // System.out.println(someDecimal);
+        // System.out.println("-----------");
 
 
-        int a = 45;
-        double b = 5;
-        double c = b/a;
-        System.out.println(c);
-        System.out.println("-----------");
+        // int a = 45;
+        // double b = 5;
+        // double c = b/a;
+        // System.out.println(c);
+        // System.out.println("-----------");
 
 
-        thisIsADecimal = 13.0/55;
-        System.out.println(thisIsADecimal);
-        System.out.println("-----------");
+        // thisIsADecimal = 13.0/55;
+        // System.out.println(thisIsADecimal);
+        // System.out.println("-----------");
 
-        thisIsADecimal = 5+(3*4);
-        System.out.println(thisIsADecimal);
-        System.out.println("-----------");
+        // thisIsADecimal = 5+(3*4);
+        // System.out.println(thisIsADecimal);
+        // System.out.println("-----------");
 
 
 
