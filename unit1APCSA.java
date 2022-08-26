@@ -33,12 +33,13 @@ public class unit1APCSA {  //class name must match file name
         // you create them in Java using the datatype and then variable name
 
         // intigers, whole numbers - int
-        int numbers = 10;
+        int numbers;
+        numbers=10;
         System.out.println(numbers);
         System.out.println("-----------");
 
         // //double used to decimals
-        double thisIsADecimal = 13;
+        double thisIsADecimal = 13.0000010000;
         System.out.println(thisIsADecimal);
         System.out.println("-----------");
 
@@ -47,21 +48,21 @@ public class unit1APCSA {  //class name must match file name
         System.out.println("-----------");
 
 
-        // //boolean used for true or false
+        // // //boolean used for true or false
         boolean trueOrFalse = false;
         System.out.println(trueOrFalse);
         System.out.println("-----------");
 
         // if we want to make a constant then we use the keyword final
-        final double pi = 3.14;      
-        System.out.println(pi);
-        System.out.println("-----------");
+        // final double pi = 3.14;      
+        // System.out.println(pi);
+        // System.out.println("-----------");
 
-        // Strings are words
-        String someWords = "T";
-        char somethingElse = 'r';
-        System.out.println(someWords);
-        System.out.println("-----------");
+        // // // Strings are words
+        // String someWords = "Tomorrow is Saturday ";
+        // char somethingElse = 'r';
+        // System.out.println(someWords);
+        // System.out.println("-----------");
 
 
         // //you can also initialize a variable placeholder and use it later.
@@ -71,36 +72,36 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println("-----------");
 
 
-        // int a = 45;
-        // double b = 5;
-        // double c = b/a;
+        // int a = 8;
+        // double b = 3;
+        // double c = a/b;
         // System.out.println(c);
         // System.out.println("-----------");
 
 
-        // thisIsADecimal = 13.0/55;
+        // thisIsADecimal = 13/55;
         // System.out.println(thisIsADecimal);
         // System.out.println("-----------");
 
-        // thisIsADecimal = 5+(3*4);
+        // thisIsADecimal = 5+(3*4)%6;
         // System.out.println(thisIsADecimal);
         // System.out.println("-----------");
 
         // The difference between numbers and strings
-        // System.out.println(6);
-        // System.out.println("6");
-        // System.out.println(6+6);
-        // System.out.println("6"+"6");
-        // System.out.println("-----------");
+        System.out.println(6);
+        System.out.println("6");
+        System.out.println(6+6);
+        System.out.println("T\"\""+"o"+"m"+"a"+"s");
+        //System.out.println("-----------");
 
         // assignement operator (=) go left to right
-        // int apple = 4;
-        // int x = apple = 10;
-        // //int y = 14 = x = apple;
-        // System.out.println(x);
-        // System.out.println(apple);
-        // //System.out.println(y);
-        // System.out.println("-----------");
+        int apple = 4;
+        int x = apple = 10;
+        int y = x = apple=14;
+        System.out.println(x);
+        System.out.println(apple);
+        //System.out.println(y);
+        System.out.println("-----------");
 
 
 
