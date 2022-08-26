@@ -86,6 +86,22 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println(thisIsADecimal);
         // System.out.println("-----------");
 
+        // The difference between numbers and strings
+        // System.out.println(6);
+        // System.out.println("6");
+        // System.out.println(6+6);
+        // System.out.println("6"+"6");
+        // System.out.println("-----------");
+
+        // assignement operator (=) go left to right
+        // int apple = 4;
+        // int x = apple = 10;
+        // //int y = 14 = x = apple;
+        // System.out.println(x);
+        // System.out.println(apple);
+        // //System.out.println(y);
+        // System.out.println("-----------");
+
 
 
 
