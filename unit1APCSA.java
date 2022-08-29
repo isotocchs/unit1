@@ -8,7 +8,7 @@ public class unit1APCSA {  //class name must match file name
 
     public static void main(String[] args){
 
-        int numbers;
+        //int numbers;
 
 
         // System.out.println("Testing");
@@ -28,26 +28,26 @@ public class unit1APCSA {  //class name must match file name
 
 
         // //variables and data types
-        System.out.println("");
-        System.out.println("-----------");
-        System.out.println("-----------");
+        // System.out.println("");
+        // System.out.println("-----------");
+        // System.out.println("-----------");
 
         // you create them in Java using the datatype and then variable name
 
         // intigers, whole numbers - int
         
-        numbers = 10;
+        // numbers = 10;
         
-        System.out.println(numbers);
+        // System.out.println(numbers);
 
-        numbers = 56;
-        System.out.println(numbers);
-        System.out.println("-----------");
+        // numbers = 56;
+        // System.out.println(numbers);
+        // System.out.println("-----------");
 
-        // //double used to decimals
-        double thisIsADecimal = 13.00000001;
-        System.out.println(thisIsADecimal);
-        System.out.println("-----------");
+        // // //double used to decimals
+        // double thisIsADecimal = 13.00000001;
+        // System.out.println(thisIsADecimal);
+        // System.out.println("-----------");
 
         // thisIsADecimal = numbers;
         // System.out.println(thisIsADecimal);
@@ -55,30 +55,30 @@ public class unit1APCSA {  //class name must match file name
 
 
         // // // //boolean used for true or false
-        int x = 34;
-        double y = 67.9;
-        boolean trueOrFalse = x<y;
-        System.out.println(trueOrFalse);
-        System.out.println("-----------");
+        // int x = 34;
+        // double y = 67.9;
+        // boolean trueOrFalse = x<y;
+        // System.out.println(trueOrFalse);
+        // System.out.println("-----------");
 
-        // if we want to make a constant then we use the keyword final
-        final double pi = 3.14;      
-        System.out.println(pi);
-        System.out.println("-----------");
+        // // if we want to make a constant then we use the keyword final
+        // final double pi = 3.14;      
+        // System.out.println(pi);
+        // System.out.println("-----------");
 
         // // // Strings are words
-        String user = "Bob";
-        int age = 57;
-        double gpa = 4.5;
-        System.out.println(user+" is "+age+" and his GPA is "+gpa);
-        System.out.println("-----------");
+        // String user = "Bob";
+        // int age = 57;
+        // double gpa = 4.5;
+        // System.out.println(user+" is "+age+" and his GPA is "+gpa);
+        // System.out.println("-----------");
 
-        String admin = "Mr Soto";
-        char somethingElse = 'r';
-        String something = "Fun";
-        String admin2 = admin+" "+somethingElse+" "+something;
-        System.out.println(admin2);
-        System.out.println("-----------");
+        // String admin = "Mr Soto";
+        // char somethingElse = 'r';
+        // String something = "Fun";
+        // String admin2 = admin+" "+somethingElse+" "+something;
+        // System.out.println(admin2);
+        // System.out.println("-----------");
 
 
         // //you can also initialize a variable placeholder and use it later.
@@ -88,11 +88,11 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println("-----------");
 
 
-        int a = 8;
-        double b = -4;
-        double c = a/b;
-        System.out.println(c);
-        System.out.println("-----------");
+        // int a = 8;
+        // double b = -4;
+        // double c = a/b;
+        // System.out.println(c);
+        // System.out.println("-----------");
         
 
         // thisIsADecimal = 13.0000/55.0;
@@ -104,10 +104,10 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println("-----------");
 
         //The difference between numbers and strings
-        System.out.println(6);
-        System.out.println("Tom is "+(6+6));
-        System.out.println(6+6);
-        System.out.println("6"+"6");
+        // System.out.println(6);
+        // System.out.println("Tom is "+(6+6));
+        // System.out.println(6+6);
+        // System.out.println("6"+"6");
 
 
         //System.out.println("T\"\""+"o"+"m"+"a"+"s");
@@ -121,6 +121,51 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println(apple);
         // //System.out.println(y);
         // System.out.println("-----------");
+
+
+        // Compound assignement operators
+
+        System.out.println("-----------");
+
+        double compound = 5;
+
+        compound += 4;
+        //same as compound = compound + 4
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        compound -= 4;
+        //same as compound = compound - 4
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        compound *= 4;
+        //same as compound = compound * 4
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        compound /= 4;
+        //same as compound = compound / 4
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        compound %= 4;
+        //same as compound = compound % 4
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        compound++;
+        //same as compound = compound + 1 or compound += 1
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        compound--;
+        //same as compound = compound - 1 or compound -= 1
+        System.out.println(compound);
+        System.out.println("-----------");
+
+
+
 
 
 
