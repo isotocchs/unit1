@@ -167,6 +167,10 @@ public class unit1APCSA {  //class name must match file name
         System.out.println("-----------");
 
         compound--;
+        compound--;
+        compound--;
+
+        
         //same as compound = compound - 1 or compound -= 1
         System.out.println(compound);
         System.out.println("-----------");
