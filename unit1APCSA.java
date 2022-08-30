@@ -109,17 +109,17 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println(6+6);
         // System.out.println("6"+"6");
 
-
-        System.out.println("T"+"o"+"m"+"a"+"s");
-        System.out.println("-----------");
+        // System.out.println("-----------");
+        // System.out.println("\"T"+"o"+"m\\"+"a"+"s\"");
+        // System.out.println("-----------");
 
         // // assignement operator (=) go left to right
         // int apple = 4;
-        // int x = apple = 10;
-        // int y = x = apple=14;
+        // int x = apple;
+        // int y = x = apple;
         // System.out.println(x);
         // System.out.println(apple);
-        // //System.out.println(y);
+        // System.out.println(y);
         // System.out.println("-----------");
 
 
@@ -134,40 +134,44 @@ public class unit1APCSA {  //class name must match file name
         System.out.println(compound);
         System.out.println("-----------");
 
-        // compound -= 4;
-        // //same as compound = compound - 4
-        // System.out.println(compound);
-        // System.out.println("-----------");
+        compound -= 4;
+        //same as compound = compound - 4
+        System.out.println(compound);
+        System.out.println("-----------");
 
-        // compound *= 4;
-        // //same as compound = compound * 4
-        // System.out.println(compound);
-        // System.out.println("-----------");
+        compound *= 4;
+        //same as compound = compound * 4
+        System.out.println(compound);
+        System.out.println("-----------");
 
-        // compound /= 4;
-        // //same as compound = compound / 4
-        // System.out.println(compound);
-        // System.out.println("-----------");
+        compound /= 4;
+        //same as compound = compound / 4
+        System.out.println(compound);
+        System.out.println("-----------");
 
-        // compound %= 4;
-        // //same as compound = compound % 4
-        // System.out.println(compound);
-        // System.out.println("-----------");
+        compound = 20;
+        compound %= 4;
+        //same as compound = compound % 4
+        System.out.println(compound);
+        System.out.println("-----------");
 
-        // compound++;
-        // //same as compound = compound + 1 or compound += 1
-        // System.out.println(compound);
-        // System.out.println("-----------");
+        double some = 5;
+        some *= 3/4.0;
+        System.out.println(some);
+        System.out.println("-----------");
 
-        // compound--;
-        // //same as compound = compound - 1 or compound -= 1
-        // System.out.println(compound);
-        // System.out.println("-----------");
+        compound = 20;
+        compound++;
+        //same as compound = compound + 1 or compound += 1
+        System.out.println(compound);
+        System.out.println("-----------");
 
-        // double some = 5;
-        // some *= 3/4.0;
-        // System.out.println(some);
-        // System.out.println("-----------");
+        compound--;
+        //same as compound = compound - 1 or compound -= 1
+        System.out.println(compound);
+        System.out.println("-----------");
+
+        
 
 
 
