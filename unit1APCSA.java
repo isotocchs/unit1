@@ -175,6 +175,60 @@ public class unit1APCSA {  //class name must match file name
         System.out.println(compound);
         System.out.println("-----------");
 
+        // casting variables
+
+
+        double newVar = 56.89;
+        System.out.println(newVar);
+        System.out.println("-----------");
+
+        System.out.println((int)newVar);
+        // this is a temporary change
+        System.out.println("-----------");
+
+        // if you want to make it permanent you have to save it.
+        int intVar = (int)newVar;
+        System.out.println(intVar);
+        System.out.println("-----------");
+
+        newVar = (int)newVar;
+        System.out.println(newVar);
+        System.out.println("-----------");
+
+        System.out.println(3/4);
+        System.out.println("-----------");
+        System.out.println((double)3/4);
+        System.out.println("-----------");
+
+        // we can use this to round numbers
+        double division = 15.0/4;
+        System.out.println(division);
+        System.out.println("-----------");
+        System.out.println((int)(division+0.5));
+        System.out.println("-----------");
+
+        //if we're rounding with negatives we have to -0.5
+        double negDivision = -15.0/4;
+        System.out.println(negDivision);
+        System.out.println("-----------");
+        System.out.println((int)(negDivision-0.5));
+        System.out.println("-----------");
+
+        // practice
+        System.out.println((int)(2.5*5));
+        System.out.println("-----------");
+        System.out.println((double)67/4);
+        System.out.println("-----------");
+        System.out.println(67/(double)4);
+        System.out.println("-----------");
+        System.out.println(12/5);
+        System.out.println("-----------");
+
+        
+
+
+
+
         
 
 
