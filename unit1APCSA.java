@@ -1,5 +1,3 @@
-import java.lang.Math;
-
 
 
 public class unit1APCSA {  //class name must match file name
@@ -89,19 +87,19 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println(someDecimal);
         // System.out.println("-----------");
 
-
-        // int a = 8;
-        // double b = -4;
-        // double c = a/b;
-        // System.out.println(c);
-        // System.out.println("-----------");
+        System.out.println("-----------");
+        int a = 8;
+        double b = -3;
+        double c = a/b;
+        System.out.println(c);
+        System.out.println("-----------");
         
 
         // thisIsADecimal = 13.0000/55.0;
         // System.out.println(thisIsADecimal);
         // System.out.println("-----------");
 
-        // thisIsADecimal = 5+(3*4)/6;
+        // double thisIsADecimal = 5+(3%4)/6.0;
         // System.out.println(thisIsADecimal);
         // System.out.println("-----------");
 
@@ -129,9 +127,9 @@ public class unit1APCSA {  //class name must match file name
 
         System.out.println("-----------");
 
-        // double compound = 5;
+        //  double compound = 5;
 
-        // compound += 4;
+        // compound %= 4;
         // //same as compound = compound + 4
         // System.out.println(compound);
         // System.out.println("-----------");
@@ -157,10 +155,10 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println(compound);
         // System.out.println("-----------");
 
-        // double some = 5;
-        // some *= 3/4.0;
-        // System.out.println(some);
-        // System.out.println("-----------");
+        double some = 5;
+        some *= 3/4.0;
+        System.out.println(some);
+        System.out.println("-----------");
 
         // compound = 20;
         // compound++;
@@ -177,67 +175,59 @@ public class unit1APCSA {  //class name must match file name
         // System.out.println(compound);
         // System.out.println("-----------");
 
-        // casting variables
+        // // casting variables
 
 
-        //double newVar = 56.89;
+        double newVar = 56.89;
+        System.out.println(newVar);
+        System.out.println("-----------");
+
+        System.out.println((int)newVar);
+        // this is a temporary change
+        System.out.println("-----------");
         // System.out.println(newVar);
+        // newVar+=45;
+
         // System.out.println("-----------");
 
-        // System.out.println((int)newVar);
-        // // // this is a temporary change
-        // System.out.println(newVar);
-        // System.out.println("-----------");
-        // // System.out.println("-----------");
-
-        // // if you want to make it permanent you have to save it.
-        // int tomas = (int)newVar;
-        // System.out.println(tomas);
+        // // // if you want to make it permanent you have to save it.
+        // int intVar = (int)newVar;
+        // System.out.println(intVar);
+        // System.out.println(intVar);
         // System.out.println("-----------");
 
         // newVar = (int)newVar;
         // System.out.println(newVar);
         // System.out.println("-----------");
 
-        // System.out.println(3/4);
-        // System.out.println("-----------");
-        // System.out.println(3/(double)4);
-        // System.out.println("-----------");
+        System.out.println(3/4);
+        System.out.println("-----------");
+        System.out.println(3/(double)4);
+        System.out.println("-----------");
 
         // // we can use this to round numbers
-        // double division = 56.9;
-        // System.out.println(division);
-        // System.out.println("-----------");
-        // System.out.println((int)(division+0.5));
-        // System.out.println("-----------");
+        double division = 15.0/4;
+        System.out.println(division);
+        System.out.println("-----------");
+        System.out.println((int)(division+0.5));
+        System.out.println("-----------");
 
-        // // //if we're rounding with negatives we have to -0.5
-        // double negDivision = -15.0/4;
-        // System.out.println(negDivision);
-        // System.out.println("-----------");
-        // System.out.println((int)(negDivision-0.5));
-        // System.out.println("-----------");
+        // //if we're rounding with negatives we have to -0.5
+        double negDivision = -15.0/4;
+        System.out.println(negDivision);
+        System.out.println("-----------");
+        System.out.println((int)(negDivision-0.5));
+        System.out.println("-----------");
 
         // // practice
-        // System.out.println((int)(2.5*5));
+         System.out.println((int)(2.5*5));
         // System.out.println("-----------");
-        // System.out.println((double)67/4);
+        System.out.println(67/(int)4.0);
         // System.out.println("-----------");
-        // System.out.println((double)(2/4));
-        // System.out.println("-----------");
-        // System.out.println((int)2.5/4);
+        // System.out.println(67/(double)4);
         // System.out.println("-----------");
         // System.out.println(12/5);
-        // System.out.println("-----------");
-
-        System.out.println(12+(6%6)*8);
         System.out.println("-----------");
-        System.out.println(13/5.0);
-        System.out.println("-----------");
-        System.out.println((int)Math.pow(5, 3));
-        System.out.println("-----------");
-    
-
 
         
 
